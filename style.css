@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    width: 1000px ;
+    margin: 0 auto;
+    text-align: center;
+}
+.kartochki{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 300px ;
+    height: 300px;
+    border: 10px solid black;
+    align-items: center;
+    border-radius: 50px ;
+}
+.card img{
+    width: 300px;
+    height: 150px ;
+}
+.inp{
+    padding: 20px ;
+    border-radius: 20px ;
+}
+.btn{
+    padding: 20px ;
+    border-radius: 20px ;
+    background-color: black;
+    color: aliceblue;
+}  
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* Input */
+  .inp {
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* Qidiruv button */
+  .btn {
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Rejimni almashtiruvchi button */
+  .mode-toggle {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #999;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* DAY mode */
+  .day-mode {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  .day-mode .inp,
+  .day-mode .btn,
+  .day-mode .mode-toggle {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* NIGHT mode */
+  .night-mode {
+    background-color: #222;
+    color: white;
+  }
+  
+  .night-mode .inp,
+  .night-mode .btn,
+  .night-mode .mode-toggle {
+    background-color: #444;
+    color: white;
+  }
+  
